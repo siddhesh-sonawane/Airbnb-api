@@ -14,12 +14,17 @@ public class User {
     private long id;
     private String name;
     private String username;
-    private enum roles{Guest , Host};
+    public enum Role {
+        GUEST, HOST
+    }
     private String email;
     private long phone;
 
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String password;
+
+    @Enumerated(EnumType.STRING)
+    private Role role;
 
     boolean verificationStatus = true;
 
@@ -96,5 +101,13 @@ public class User {
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public Role getRole() {
+        return role;
+    }
+
+    public void setRole(Role role) {
+        this.role = role;
     }
 }
