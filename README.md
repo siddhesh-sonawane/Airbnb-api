@@ -179,7 +179,7 @@ Before running this project, ensure you have the following installed:
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/Siddhesh/Airbnb-api.git
+git clone https://github.com/siddhesh-sonawane/Airbnb-api.git
 cd Airbnb-api
 ```
 
@@ -583,16 +583,16 @@ This project follows [Conventional Commits](https://www.conventionalcommits.org/
 This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for full details.
 
 ```
-MIT License — Copyright (c) 2026 Siddhesh
+MIT License — Copyright (c) 2026 Siddhesh Sonawane
 ```
 
 ---
 
 ## 👨‍💻 Author
 
-**Siddhesh**
+**Siddhesh Sonawane**
 
-- GitHub: [@Siddhesh](https://github.com/Siddhesh)
+- GitHub: [@siddhesh-sonawane](https://github.com/siddhesh-sonawane)
 - Package: `com.Siddhesh.Airbnb`
 
 ---
